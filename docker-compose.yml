@@ -1,7 +1,6 @@
 services:
   api:
     image: api:latest
-    container_name: api
     build:
       context: .
       dockerfile: Dockerfile
